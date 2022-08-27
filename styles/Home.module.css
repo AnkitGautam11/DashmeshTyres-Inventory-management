@@ -1,0 +1,138 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ebf5ff;
+}
+
+.cover {
+  width: 22em;
+  height: auto;
+  position: relative;
+  border-radius: 0.5em;
+  box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ebf5ff;
+}
+
+.cover > button {
+  border: none;
+  padding: 1rem;
+  background-color: #2578c5;
+  color: white;
+  margin: 1rem;
+  width: 70%;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.cover > button:hover {
+  cursor: pointer;
+}
+
+.p_order_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ebf5ff;
+}
+
+.cover > label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.cover > input,
+.cover > select {
+  margin: 1rem;
+  margin-top: 5px;
+  width: 70%;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0.4rem;
+}
+
+
+.data_box {
+  background-color: ghostwhite;
+  border: 2px solid gray;
+  margin: 1rem;
+  padding: 1rem;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.p_order_main > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: #2578c5;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.7rem;
+}
+
+.data_row {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.data_box > input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+  width: 80%;
+
+}
+
+.data_box > label {
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    width: 140%;
+}
